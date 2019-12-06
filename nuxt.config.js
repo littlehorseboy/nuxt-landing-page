@@ -63,5 +63,8 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  router: {
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/nuxt-test/dist/' : '/'
   }
 }
