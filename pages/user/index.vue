@@ -35,6 +35,14 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
+  head () {
+    return {
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { property: 'og:title', content: 'user' }
+      ]
+    }
+  },
   components: {
     Logo
   }
