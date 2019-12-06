@@ -65,6 +65,6 @@ export default {
     }
   },
   router: {
-    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/nuxt-test/dist/' : '/'
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/nuxt-landing-page/dist/' : '/'
   }
 }
