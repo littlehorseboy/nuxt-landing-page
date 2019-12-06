@@ -23,8 +23,8 @@
         >
           GitHub
         </a>
-        <nuxt-link to="/user" class="button--grey">
-          user
+        <nuxt-link to="/" class="button--grey">
+          home
         </nuxt-link>
       </div>
     </div>
